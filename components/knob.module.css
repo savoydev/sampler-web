@@ -23,6 +23,8 @@
     position: absolute;
     top: 5px;
     left: 5px;
+    background-image: url("https://img.pngio.com/transparent-textures-textures-png-400_400.png");
+    background-blend-mode: difference;
   }
   
   .dial.first::before {
