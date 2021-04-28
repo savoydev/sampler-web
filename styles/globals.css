@@ -51,8 +51,9 @@ html {
 
 #leftOptions {
   display: grid;
-  grid-template-rows: 40% 40%;
+  grid-template-rows: 60px 60px;
   grid-gap: 23px;
+  align-content: end;
 }
 
 #topLeft,

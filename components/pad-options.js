@@ -5,12 +5,16 @@ export default function PadOptions() {
   return (
     <>
       <div className={`${styles.padOptions} ${styles.levels}`}>
-        <MediumButtonWithTextLight text="Full Level" />
-        <MediumButtonWithTextLight text="16 Levels" />
+        <div className={styles.buttons}>
+          <MediumButtonWithTextLight text="Full Level" />
+          <MediumButtonWithTextLight text="16 Levels" />
+        </div>
       </div>
       <div className={`${styles.padOptions} ${styles.seqMute}`}>
-        <MediumButtonWithTextLight text="Next Seq" />
-        <MediumButtonWithTextLight text="Track Mute" />
+        <div className={styles.buttons}>
+          <MediumButtonWithTextLight text="Next Seq" />
+          <MediumButtonWithTextLight text="Track Mute" />
+        </div>
       </div>
     </>
   );

@@ -1,10 +1,15 @@
 .padOptions {
   background: #dcdbd6;
+  box-shadow: inset 0px -9px 0px 0px #6b6f72;
+  padding-top: 5px;
+}
+
+.buttons {
   display: grid;
-  grid-template-columns: 25% 25%;
-  grid-template-rows: 35%;
+  grid-template-columns: auto auto;
   align-content: end;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0 15px;
 }
 
 .levels {
