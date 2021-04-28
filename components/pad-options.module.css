@@ -1,0 +1,16 @@
+.padOptions {
+  background: #dcdbd6;
+  display: grid;
+  grid-template-columns: 25% 25%;
+  grid-template-rows: 35%;
+  align-content: end;
+  justify-content: space-evenly;
+}
+
+.levels {
+  /* grid-area: levels; */
+}
+
+.seqMute {
+  /* grid-area: seq-mute; */
+}

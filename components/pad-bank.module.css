@@ -1,6 +1,7 @@
 .padBanks {
-    display: grid;
-    grid-template-columns: repeat(4, 18%);
-    justify-content: space-between;
-    align-content: end;
-  }
+  /* grid-area: padbank; */
+  display: grid;
+  grid-template-columns: repeat(4, 18%);
+  justify-content: space-between;
+  align-content: end;
+}

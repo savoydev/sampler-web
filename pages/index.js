@@ -11,6 +11,7 @@ import { MediumButtonWithText } from "../components/buttons/button-with-text";
 import MediumButtonWithTextLight from "../components/buttons/button-with-text-light";
 import PadBank from "../components/pad-bank";
 import GainKnobs from "../components/gain-knobs";
+import PadOptions from "../components/pad-options";
 
 export default function Home() {
   return (
@@ -45,14 +46,7 @@ export default function Home() {
             <div id="logo"></div>
             <div id="options">
               <div id="leftOptions">
-                <div id="topLeft">
-                  <MediumButtonWithTextLight text="Full Level" />
-                  <MediumButtonWithTextLight text="16 Levels" />
-                </div>
-                <div id="bottomLeft">
-                  <MediumButtonWithTextLight text="Next Seq" />
-                  <MediumButtonWithTextLight text="Track Mute" />
-                </div>
+                <PadOptions />
               </div>
               <div id="rightOptions">
                 <GainKnobs />

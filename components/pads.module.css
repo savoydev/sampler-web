@@ -1,45 +1,73 @@
-.pads {
+.drums {
   background: #6b6f72;
   background-image: url("https://www.onlygfx.com/wp-content/uploads/2019/02/7-noise-texture-overlays-1-1024x785.png");
   background-blend-mode: soft-light;
   background-size: cover;
+  padding: 6px 50px 40px 60px;
+  display: grid;
+  grid-template-rows: max-content;
+  grid-gap: 10px;
+  border-radius: 1px 2px 1.5px 2.5px;
+}
+
+.sectionHeading {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-gap: 10px;
+  align-content: end;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 18px;
+  color: #3c0706;
+}
+.line {
+  height: 1px;
+  background-color: #3c0706;
+  margin: 8.5px 0;
+}
+
+.pads {
   display: grid;
   border-radius: 2px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
-  padding: 20px 30px;
 }
 
-.pads > div {
+.pad {
   background-image: url("https://img.pngio.com/transparent-textures-textures-png-400_400.png");
   background-color: #766865;
   background-size: 200%;
   border-radius: 3px 2px 4px 1px;
-  box-shadow: inset -1px 4px 2px rgb(166, 155, 153, 72%), -5px 4px 1px 3px #383838;
+  box-shadow: inset -1px 4px 2px rgb(166, 155, 153, 72%),
+    -5px 4px 1px 3px #2d2a2a;
+    height: 100%;
 }
 
-.pads > div:nth-child(2n) {
+.padName {
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #3c0706;
+}
+
+.padWrap:nth-child(2n) .pad {
   background-size: 105%;
   transform: rotate(0.25deg);
   border-radius: 1.75px 2px 3px 1px;
 }
-.pads > div:nth-child(3n) {
+.padWrap:nth-child(3n) .pad {
   background-size: 120%;
   border-radius: 2px 1px 2px 4px;
   transform: rotate(-0.15deg);
 }
-.pads > div:nth-child(5n) {
+.padWrap:nth-child(5n) .pad {
   background-size: 110%;
   border-radius: 2px 2px 2px 1px;
   transform: rotate(0.05deg);
 }
-.pads > div:nth-child(6n) {
+.padWrap:nth-child(6n) .pad {
   background-size: 175%;
   border-radius: 2px 3px 4px 2px;
   transform: rotate(-0.35deg);
-}
-
-.pads > div:hover {
-  transform: scale(0.99);
-  transition: transform 0.5s;
 }
