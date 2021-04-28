@@ -14,8 +14,7 @@
   background-color: #766865;
   background-size: 200%;
   border-radius: 3px 2px 4px 1px;
-  box-shadow: inset -1px 4px 2px rgb(166, 155, 153, 72%),
-    -6px 4px 1px 1px rgb(0, 0, 0, 50%);
+  box-shadow: inset -1px 4px 2px rgb(166, 155, 153, 72%), -5px 4px 1px 3px #383838;
 }
 
 .pads > div:nth-child(2n) {

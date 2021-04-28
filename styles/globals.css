@@ -41,7 +41,7 @@ html {
 #options {
   background-color: #6b6f72;
   display: grid;
-  border-radius: 1px 2px 1.5px 1px;
+  border-radius: 2px 2.3px 1.5px 1px;
   grid-template-columns: 40% 60%;
   padding: 20px;
   background-image: url("https://www.onlygfx.com/wp-content/uploads/2019/02/7-noise-texture-overlays-1-1024x785.png");
