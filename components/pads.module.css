@@ -1,0 +1,45 @@
+.pads {
+  background: #6b6f72;
+  background-image: url("https://www.onlygfx.com/wp-content/uploads/2019/02/7-noise-texture-overlays-1-1024x785.png");
+  background-blend-mode: soft-light;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px 30px;
+}
+
+.pads > div {
+  background-image: url("https://img.pngio.com/transparent-textures-textures-png-400_400.png");
+  background-color: #766865;
+  background-size: 200%;
+  border-radius: 3px 2px 4px 1px;
+  box-shadow: inset -1px 4px 2px rgb(166, 155, 153, 72%),
+    -6px 4px 1px 1px rgb(0, 0, 0, 50%);
+}
+
+.pads > div:nth-child(2n) {
+  background-size: 105%;
+  transform: rotate(0.25deg);
+  border-radius: 1.75px 2px 3px 1px;
+}
+.pads > div:nth-child(3n) {
+  background-size: 120%;
+  border-radius: 2px 1px 2px 4px;
+  transform: rotate(-0.15deg);
+}
+.pads > div:nth-child(5n) {
+  background-size: 110%;
+  border-radius: 2px 2px 2px 1px;
+  transform: rotate(0.05deg);
+}
+.pads > div:nth-child(6n) {
+  background-size: 175%;
+  border-radius: 2px 3px 4px 2px;
+  transform: rotate(-0.35deg);
+}
+
+.pads > div:hover {
+  transform: scale(0.99);
+  transition: transform 0.5s;
+}

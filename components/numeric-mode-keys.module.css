@@ -1,0 +1,7 @@
+.numericModeKeys {
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    justify-content: space-around;
+    align-content: space-around;
+    
+  }
