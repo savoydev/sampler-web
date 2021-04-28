@@ -1,0 +1,17 @@
+.sectionHeading {
+    grid-column: 1 / span 4;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 10px;
+    align-content: end;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 18px;
+    color: #3c0706;
+  }
+  .line {
+    height: 1px;
+    background-color: #3c0706;
+    margin: 8.5px 0;
+  }
