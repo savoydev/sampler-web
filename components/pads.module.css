@@ -4,6 +4,7 @@
   background-blend-mode: soft-light;
   background-size: cover;
   display: grid;
+  border-radius: 2px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
   padding: 20px 30px;

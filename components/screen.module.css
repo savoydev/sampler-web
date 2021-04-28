@@ -1,7 +1,8 @@
 .screen {
-  background: #0d0b0e;
+  background: url('https://img.pngio.com/transparent-textures-textures-png-400_400.png');
+  background-color: #0e1317;
   padding: 10px;
-  box-shadow: inset -20px 20px 2px #271f28;
+  box-shadow: inset -20px 20px 2px rgba(71, 64, 72, 18%);
   clip-path: polygon(0 20px, 10px 0, 600px 0, 610px 20px, 610px 230px, 0 230px);
   border-radius: 0 10px 10px 10px;
   display: grid;
@@ -15,11 +16,12 @@
   background-color: #eaf2da;
   border-radius: 7px;
   padding: 20px;
-  box-shadow: inset -4px 7px 3px #a4bba9;
+  box-shadow: inset -4px 7px 3px #a4bba9, -3px 4px 7px rgb(255, 255, 255, 25%);
   font-size: 22px;
   color: #7482a8;
   font-family: sans-serif;
   animation: textShadow 1.6s infinite;
+  position: relative;
 }
 
 .crt::after {

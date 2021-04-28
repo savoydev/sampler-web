@@ -8,7 +8,7 @@ import NumericModeKeys from "../components/numeric-mode-keys";
 import Screen from "../components/Screen";
 import SamplerBody from "../components/SamplerBody";
 import { MediumButtonWithText } from "../components/buttons/button-with-text";
-
+import MediumButtonWithTextLight from "../components/buttons/button-with-text-light";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -43,12 +43,20 @@ export default function Home() {
             <div id="options">
               <div id="leftOptions">
                 <div id="topLeft">
-                  <MediumButton />
-                  <MediumButton />
+                  <MediumButtonWithTextLight text="Full Level">
+                    <MediumButton />
+                  </MediumButtonWithTextLight>
+                  <MediumButtonWithTextLight text="16 Levels">
+                    <MediumButton />
+                  </MediumButtonWithTextLight>
                 </div>
                 <div id="bottomLeft">
-                  <MediumButton />
-                  <MediumButton />
+                  <MediumButtonWithTextLight text="Next Seq">
+                    <MediumButton />
+                  </MediumButtonWithTextLight>
+                  <MediumButtonWithTextLight text="Track Mute">
+                    <MediumButton />
+                  </MediumButtonWithTextLight>
                 </div>
               </div>
               <div id="rightOptions">
@@ -57,10 +65,18 @@ export default function Home() {
                   <Knob />
                 </div>
                 <div id="bottomRight">
-                  <MediumButton />
-                  <MediumButton />
-                  <MediumButton />
-                  <MediumButton />
+                  <MediumButtonWithTextLight text="A">
+                    <MediumButton />
+                  </MediumButtonWithTextLight>
+                  <MediumButtonWithTextLight text="B">
+                    <MediumButton />
+                  </MediumButtonWithTextLight>
+                  <MediumButtonWithTextLight text="C">
+                    <MediumButton />
+                  </MediumButtonWithTextLight>
+                  <MediumButtonWithTextLight text="D">
+                    <MediumButton />
+                  </MediumButtonWithTextLight>
                 </div>
               </div>
             </div>
