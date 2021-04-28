@@ -8,11 +8,8 @@ export default function PadBank() {
     <div className={styles.padBanks}>
       <ButtonSectionHeading headingText="Pad Bank" />
       <MediumButtonWithTextLight text="A" />
-
       <MediumButtonWithTextLight text="B" />
-
       <MediumButtonWithTextLight text="C" />
-
       <MediumButtonWithTextLight text="D" />
     </div>
   );

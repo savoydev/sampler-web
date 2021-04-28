@@ -10,6 +10,7 @@ import SamplerBody from "../components/SamplerBody";
 import { MediumButtonWithText } from "../components/buttons/button-with-text";
 import MediumButtonWithTextLight from "../components/buttons/button-with-text-light";
 import PadBank from "../components/pad-bank";
+import GainKnobs from "../components/gain-knobs";
 
 export default function Home() {
   return (
@@ -54,10 +55,7 @@ export default function Home() {
                 </div>
               </div>
               <div id="rightOptions">
-                <div id="topRight">
-                  <Knob first />
-                  <Knob />
-                </div>
+                <GainKnobs />
                 <PadBank />
               </div>
             </div>
