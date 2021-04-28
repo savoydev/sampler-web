@@ -9,6 +9,8 @@ import Screen from "../components/Screen";
 import SamplerBody from "../components/SamplerBody";
 import { MediumButtonWithText } from "../components/buttons/button-with-text";
 import MediumButtonWithTextLight from "../components/buttons/button-with-text-light";
+import PadBank from "../components/pad-bank";
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -43,20 +45,12 @@ export default function Home() {
             <div id="options">
               <div id="leftOptions">
                 <div id="topLeft">
-                  <MediumButtonWithTextLight text="Full Level">
-                    <MediumButton />
-                  </MediumButtonWithTextLight>
-                  <MediumButtonWithTextLight text="16 Levels">
-                    <MediumButton />
-                  </MediumButtonWithTextLight>
+                  <MediumButtonWithTextLight text="Full Level" />
+                  <MediumButtonWithTextLight text="16 Levels" />
                 </div>
                 <div id="bottomLeft">
-                  <MediumButtonWithTextLight text="Next Seq">
-                    <MediumButton />
-                  </MediumButtonWithTextLight>
-                  <MediumButtonWithTextLight text="Track Mute">
-                    <MediumButton />
-                  </MediumButtonWithTextLight>
+                  <MediumButtonWithTextLight text="Next Seq" />
+                  <MediumButtonWithTextLight text="Track Mute" />
                 </div>
               </div>
               <div id="rightOptions">
@@ -64,20 +58,7 @@ export default function Home() {
                   <Knob first />
                   <Knob />
                 </div>
-                <div id="bottomRight">
-                  <MediumButtonWithTextLight text="A">
-                    <MediumButton />
-                  </MediumButtonWithTextLight>
-                  <MediumButtonWithTextLight text="B">
-                    <MediumButton />
-                  </MediumButtonWithTextLight>
-                  <MediumButtonWithTextLight text="C">
-                    <MediumButton />
-                  </MediumButtonWithTextLight>
-                  <MediumButtonWithTextLight text="D">
-                    <MediumButton />
-                  </MediumButtonWithTextLight>
-                </div>
+                <PadBank />
               </div>
             </div>
             <Pads />
