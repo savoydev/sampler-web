@@ -8,10 +8,10 @@ import NumericModeKeys from "../components/numeric-mode-keys";
 import Screen from "../components/Screen";
 import SamplerBody from "../components/SamplerBody";
 import { MediumButtonWithText } from "../components/buttons/button-with-text";
-import MediumButtonWithTextLight from "../components/buttons/button-with-text-light";
 import PadBank from "../components/pad-bank";
 import GainKnobs from "../components/gain-knobs";
 import PadOptions from "../components/pad-options";
+import BottomCluster from "../components/bottom-cluster";
 
 export default function Home() {
   return (
@@ -26,21 +26,17 @@ export default function Home() {
           <div id="left">
             <Screen />
             <FunctionKeys />
-            <div id="numberKeysAndDataDial">
+            <section id="numberKeysAndDataDial">
               <NumericModeKeys />
               <div id="dialContainer">
                 <div id="dialButtons">
-                  <MediumButtonWithText text="Main Screen">
-                    <MediumButton />
-                  </MediumButtonWithText>
-                  <MediumButtonWithText text="Open Window">
-                    <MediumButton />
-                  </MediumButtonWithText>
+                  <MediumButtonWithText text="Main Screen" />
+                  <MediumButtonWithText text="Open Window" />
                 </div>
                 <div id="jogDial"></div>
               </div>
-            </div>
-            <div id="bottomButtons"></div>
+            </section>
+            <BottomCluster />
           </div>
           <div id="right">
             <div id="logo"></div>

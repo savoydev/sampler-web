@@ -2,6 +2,6 @@
     display: grid;
     grid-template-columns: repeat(3, 40px);
     justify-content: space-around;
-    align-content: space-around;
-    
+    align-content: start;
+    row-gap: 10px;
   }

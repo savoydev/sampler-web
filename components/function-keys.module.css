@@ -3,5 +3,5 @@
     padding: 0 50px;
     grid-template-columns: repeat(6, 40px);
     justify-content: space-between;
-    align-content: end;
+    align-content: center;
 }

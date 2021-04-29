@@ -1,5 +1,4 @@
 import MediumButtonWithTextLight from "./buttons/button-with-text-light";
-import MediumButton from "./buttons/mediumButton";
 import ButtonSectionHeading from "./buttons/button-section-heading";
 import styles from "./pad-bank.module.css";
 
