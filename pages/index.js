@@ -1,12 +1,10 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Pads from "../components/pads";
-import Knob from "../components/knob";
-import MediumButton from "../components/buttons/mediumButton";
 import FunctionKeys from "../components/function-keys";
 import NumericModeKeys from "../components/numeric-mode-keys";
-import Screen from "../components/Screen";
-import SamplerBody from "../components/SamplerBody";
+import Screen from "../components/screen";
+import SamplerBody from "../components/samplerBody";
 import { MediumButtonWithText } from "../components/buttons/button-with-text";
 import PadBank from "../components/pad-bank";
 import GainKnobs from "../components/gain-knobs";
