@@ -5,7 +5,7 @@
 }
 
 .bottomCluster > div {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .bottomCluster > div:nth-child(1) {
