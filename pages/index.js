@@ -5,7 +5,7 @@ import FunctionKeys from "../components/function-keys";
 import NumericModeKeys from "../components/numeric-mode-keys";
 import Screen from "../components/screen";
 import SamplerBody from "../components/samplerBody";
-import { MediumButtonWithText } from "../components/buttons/button-with-text";
+import { MediumButtonWithText, MediumOrangeButtonWithText } from "../components/buttons/button-with-text";
 import PadBank from "../components/pad-bank";
 import GainKnobs from "../components/gain-knobs";
 import PadOptions from "../components/pad-options";
@@ -29,7 +29,7 @@ export default function Home() {
               <div id="dialContainer">
                 <div id="dialButtons">
                   <MediumButtonWithText text="Main Screen" />
-                  <MediumButtonWithText text="Open Window" />
+                  <MediumOrangeButtonWithText text="Open Window" />
                 </div>
                 <div id="jogDial"></div>
               </div>

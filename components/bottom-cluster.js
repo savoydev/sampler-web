@@ -3,6 +3,7 @@ import ButtonSectionHeading from "./buttons/button-section-heading";
 import {
   MediumButtonWithText,
   LargeButtonWithText,
+  LargeRedButtonWithText
 } from "./buttons/button-with-text";
 
 export default function BottomCluster() {
@@ -40,8 +41,8 @@ export default function BottomCluster() {
       </div>
       <div>
         <div className={styles.largeButtonRow}>
-          <LargeButtonWithText text="Rec" />
-          <LargeButtonWithText text="Overdub" />
+          <LargeRedButtonWithText text="Rec" />
+          <LargeRedButtonWithText text="Overdub" />
           <LargeButtonWithText text="Stop" />
           <LargeButtonWithText text="Play" />
           <LargeButtonWithText text="Play Start" />

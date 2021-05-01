@@ -8,3 +8,10 @@
     height: 16px;
     margin: 0 auto;
   }
+
+
+  .orange {
+    background-color: rgb(255, 166, 0);
+    box-shadow: inset 2px 2px 4px rgb(230, 196, 146), -2px -3px 2px rgba(0, 0, 0,.7),
+    2px 3px 3px rgba(0, 0, 0, .7);
+  }
